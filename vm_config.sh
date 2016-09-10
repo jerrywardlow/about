@@ -7,9 +7,9 @@ curl -sL https://deb.nodesource.com/setup_5.x | bash
 apt-get install -qqy nodejs
 
 npm install -g bower
-npm install -g forever
+npm install -g pm2
 
 cd /bulochnik.com
 npm install
-forever start server.js
-echo "Forever is now running server.js on 172.69.69.69:3000" > /etc/motd
+pm2 start server.js
+echo "PM2 is now running server.js on 172.69.69.69:3000" > /etc/motd
