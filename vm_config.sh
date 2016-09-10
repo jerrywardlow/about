@@ -10,6 +10,6 @@ npm install -g bower
 npm install -g pm2
 
 cd /bulochnik.com
-npm install
+npm install --no-bin-links
 pm2 start server.js
 echo "PM2 is now running server.js on 172.69.69.69:3000" > /etc/motd
