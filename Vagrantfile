@@ -6,7 +6,7 @@ machine = [
     box:       "ubuntu/trusty64",
     config:    "vm_config.sh",
     ip:        "172.69.69.69",
-    synchost:  ".",
+    synchost:  "app/",
     syncguest: "/bulochnik.com",
   }
 ]
